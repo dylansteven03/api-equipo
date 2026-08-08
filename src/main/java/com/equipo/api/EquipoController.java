@@ -26,5 +26,10 @@ public class EquipoController {
         return "Hola, soy Dylan y este es mi endpoint.";
     }
 
+@GetMapping("/Valentina")
+    public String saludoValentina() {
+        return "Hola, soy Valentina y este es mi endpoint.";
+    }
+
 
 }

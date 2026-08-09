@@ -36,4 +36,8 @@ public class EquipoController {
         return "Hola, soy Brian y este es mi endpoint.";
     }
 
+@GetMapping("/Liseth")
+    public String saludoLiseth() {
+        return "Hola, soy Liseth y este es mi endpoint.";
+    }
 }
